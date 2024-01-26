@@ -1,0 +1,105 @@
+/* media for Tablets */
+@media (max-width: 992px) {
+    section .content-text h3,
+    .News .News-text h3,
+    .Prancing .prancing-header h3,
+    .customers .container h1,
+    .FaQ .FaQ-title h3{
+        font-size: 38px;
+    }
+    .Hero-section .container{
+        flex-direction: row-reverse;
+        width: 750px;
+        padding: 100px 20px;
+        gap: 20px;
+    }
+    .content-img img{
+        display: none;
+    }
+    .content-img .img-tab{
+        display: block;
+    }
+    .content-btn{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    section .content-text{
+        flex: 1;
+        align-items: stretch;
+    }
+    section .content-text h3{
+        width: 357px;
+        text-align: left;
+    }
+    .content-text p{
+        font-weight: 400;
+        width: 357px;
+        text-align: left;
+    }
+    /* Start new section */
+    .cards .card:first-child{
+        display: none;
+    }
+    .cards .card img{
+        width: 100%;
+    }
+    .News .card-text > p{
+        font-size: 18px;
+    }
+    .News .card-footer{
+        width: 100%;
+
+    }
+    .News .card-footer .card-btn{
+        flex: 1;
+    }
+    /* Custmores */
+    .customers-cards .card{
+        flex-basis: calc((100% - 20px) / 2 );
+    }
+    .customers-cards .card:nth-child(5){
+        display: none;
+    }
+    .customers-cards .card:last-child{
+        display: none;
+    }
+    .customers-cards .card h5{
+        font-size: 18px;
+    }
+    .customers-cards p{
+        font-size: 14px;
+    }
+    /* End Custmores */
+    /*Start FaQs */
+    .frame p{
+        font-size: 18px;
+    }
+    .last-frame .p-last{
+        font-size: 14px;
+    }
+    /* Frame footer */
+    .frames-footer{
+        gap: 10px;
+    }
+    .frames-footer .frame-footer-btn{
+        flex: 1;
+    }
+    /* Footer */
+    footer .footer-nav ul{
+        gap: 10px;
+    }
+    footer .footer-inscription{
+        flex-direction: column;
+    }
+    footer .footer-inscription h5{
+        max-width: fit-content;
+    }
+    
+    footer .footer-copyright p:nth-child(2){
+        text-align: center;
+    }
+    footer .footer-copyright p:last-child{
+        text-align: end
+    }
+    
+    }

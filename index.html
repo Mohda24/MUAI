@@ -3,23 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Style -->
     <link rel="stylesheet" href="style.css">
+    <!-- tablet style -->
+    <link rel="stylesheet" href="mediaQuery.css">
+    <!-- mobile style -->
+    <link rel="stylesheet" href="mobile.css">
     <title>MUAI</title>
 </head>
 <body>
     <!-- Start Header -->
-    <header>
+    <header id="Home">
         <div class="container">
             
                 <!-- Logo -->
             <h5 class="logo">MUAI</h5>
             <nav>
+                <div class="mobile-icon">
+                    <span></span>
+                    <span></span>
+                </div>
                 <!-- ul -->
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Princing</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Princing">Princing</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Contact">Contact</a></li>
                 </ul>
             </nav>    
                 <!-- btn -->
@@ -32,10 +41,12 @@
     <main>
     <!-- Start Hero Section -->
         <section class="Hero-section">
+            <div class="mobile">
             <div class="container">
                 <div class="content-text">
                     <h3>Explore Best Ai Tolls</h3>
-                    <p>Unleash the power of AI within Brainwave. Upgrade your productivity with Brainwave, <br>the open AI chat app.</p>
+                    <p>Unleash the power of AI within Brainwave. Upgrade your productivity with Brainwave, 
+                        the open AI chat app.</p>
                     <div class="content-btn">
                         <a href="#" class="btn first">Get Started Free</a>
                         <a href="#" class="btn second">Explore Feature</a>
@@ -43,8 +54,10 @@
                 </div>
                 <div class="content-img">
                     <img src="./img/Image.png" alt="Hero-IMG">
+                    <img class="img-tab" src="./img/Image-tab.png" alt="Hero-IMG" >
                 </div>
             </div>
+        </div>
         </section>
         <!-- End Hero Section -->
         <!-- Start News Section -->
@@ -104,7 +117,7 @@
         </section>
         <!-- End News Section -->
         <!-- Start prancing section -->
-        <section class="Prancing">
+        <section class="Prancing" id="Prancing">
             <div class="container">
                 <div class="prancing-header">
                     <h3>Princing</h3>
@@ -191,7 +204,7 @@
             </div>
         </section>
         <!-- End prancing section -->
-        <section class="customers">
+        <section class="customers" id="About">
             <div class="container">
             <h1>why customers <span>love us</span></h1>
             <div class="customers-cards">
@@ -278,7 +291,8 @@
     </main>
     <!-- End main -->
     <!-- Start section -->
-    <footer>
+    
+    <footer id="Contact">
         <div class="container">
             <div class="footer-info">
                 <h5>MUAI</h5>

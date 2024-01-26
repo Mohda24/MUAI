@@ -1,0 +1,159 @@
+/* Style for Mobile */
+@media (max-width: 767px){
+    section .content-text h3,
+    .News .News-text h3,
+    .Prancing .prancing-header h3,
+    .customers .container h1,
+    .FaQ .FaQ-title h3{
+        font-size: 28px;
+    }
+/* header */
+header .container{
+    padding: 20px;
+}
+header .logo{
+    font-size: 18px;  
+}
+
+nav .mobile-icon{
+    position: relative;
+    width: 18px;
+    height: 13px;
+    
+}
+nav .mobile-icon span:first-child{
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    top: 0;
+    background-color:var(--Black_100, #07070C);
+}
+nav .mobile-icon span:last-child{
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    background-color: var(--Black_100, #07070C);
+}
+header .btn.header{
+    display: none;
+}
+header nav ul{
+    display: none;
+}
+/* Start main */
+.content-img{
+    display: none;
+}
+.Hero-section .container{
+    width: 100%;
+}
+section .content-text h3{
+    text-align: center;
+}
+.content-text p{
+    font-size: 14px;
+    text-align: center;
+    width: 310px;
+}
+section .content-text{
+    align-items: center;
+}
+.content-btn{
+    align-items: center;
+}
+.mobile{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* News */
+.News .News-text h3{
+    font-size: 28px;
+    text-align: center;
+    width: 310px;
+}
+.News .cards{
+    flex-direction: column;
+
+}
+.News .card-text > p{
+    width: 270px;
+}
+.News .card p:nth-of-type(2){
+    width: 270px;
+}
+/* Princing */
+
+.Prancing .prancing-header p{
+    font-size: 14px;
+}
+.cards-pricing {
+    flex-direction: column;
+    /* width: 100%; */
+}
+.card .card-text{
+    width: 290px;
+}
+.customers .container h1{
+    width: 280px;
+    margin: auto;
+}
+.customers-cards .card h5{
+    font-size:24px;
+}
+.customers-cards p {
+    font-size: 18px;
+}
+.customers-cards .card{
+    flex-basis: auto;
+}
+/* faq */
+.FaQ .FaQ-title p{
+    font-size: 14px;
+}
+.FaQ .FaQ-title h3{
+    width: 350px;
+}
+.FaQ .container{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.FaQ .FAQ-frames{
+    flex-direction: column;
+}
+.frames-footer{
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+.footer-text h2{
+    font-size: 18px;
+}
+.footer-text p {
+    font-size: 14px;
+    width: 320px;
+}
+/* Footer */
+footer .footer-nav ul{
+    flex-direction: column;
+}
+.footer-social{
+    flex-direction: column;
+}
+footer .footer-inscription{
+    display: none;
+}
+footer .footer-copyright{
+    flex-direction: column;
+}
+footer{
+    margin: 0 15px;
+    border-radius: 60px;
+}
+footer .footer-copyright p{
+    font-size: 14px;
+}
+
+}
